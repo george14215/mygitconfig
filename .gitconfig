@@ -60,9 +60,8 @@
   # VSCode
   #editor = code --wait
   # Don't consider trailing space change as a cause for merge conflicts
-  whitespace = -trailing-space
-	autocrlf = true
-	eol = lf
+  autocrlf = input
+  eol = lf
 [diff]
   # Use better, descriptive initials (c, i, w) instead of a/b.
   mnemonicPrefix = true
@@ -72,7 +71,7 @@
   wordRegex = .
   # Display submodule-related information (commit listings)
   submodule = log
-	tool = bc
+  tool = bc
 [difftool "bc"]
 	path = C:/Program Files/Beyond Compare 4/BComp.exe
 [merge]
